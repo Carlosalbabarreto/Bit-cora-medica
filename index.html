@@ -629,7 +629,7 @@ main::before {
 
     function registrarVisita() {
         const nombre = document.getElementById('nombre-estudiante').value.trim();
-        const hora = document.getElementById('hora-llegada').value;
+        const hora = document.getElementById('fecha-hora-llegada').value;
         const documento = document.getElementById('documento').value.trim();
         const grado = document.getElementById('grado').value.trim();
         const notificado = document.getElementById('notificado').value;
@@ -662,7 +662,7 @@ main::before {
 
         // Limpiar campos del formulario
         document.getElementById('nombre-estudiante').value = '';
-        document.getElementById('hora-llegada').value = '';
+        document.getElementById('fecha-hora-llegada').value = '';
         document.getElementById('documento').value = '';
         document.getElementById('grado').value = '';
         document.getElementById('notificado').value = '';
